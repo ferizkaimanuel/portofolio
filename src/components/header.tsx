@@ -4,7 +4,7 @@ import { Image } from "@chakra-ui/image";
 import { Circle, Stack, Flex, Box, Text, Divider } from "@chakra-ui/layout";
 // import { GoArrowDown } from "react-icons/go"
 import Foto from "../source/fotoFix.jpeg"
-import CurriculumVitae from "../source/cv.pdf"
+// import CurriculumVitae from "../source/cv.pdf"
 import { useMediaQuery } from "@chakra-ui/media-query";
 import { GoArrowDown } from "react-icons/go";
 

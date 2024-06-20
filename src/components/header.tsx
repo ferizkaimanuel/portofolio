@@ -1,5 +1,5 @@
 import { Button } from "@chakra-ui/button"
-import { useColorMode } from "@chakra-ui/color-mode";
+// import { useColorMode } from "@chakra-ui/color-mode";
 import { Image } from "@chakra-ui/image";
 import { Circle, Stack, Flex, Box, Text, Divider } from "@chakra-ui/layout";
 // import { GoArrowDown } from "react-icons/go"
@@ -10,8 +10,8 @@ import { GoArrowDown } from "react-icons/go";
 
 const Header = () => {
 
-    const { colorMode } = useColorMode()
-    const isDark = colorMode === "dark";
+    // const { colorMode } = useColorMode()
+    // const isDark = colorMode === "dark";
 
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)")
 

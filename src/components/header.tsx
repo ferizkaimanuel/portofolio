@@ -30,7 +30,7 @@ const Header = () => {
         
           <Flex 
             direction={isNotSmallerScreen ? "row" : "column"}
-            spacing="200px"
+            letterSpacing="1px"
             p={isNotSmallerScreen ? "32" : 0}
             alignSelf="flex-start"
           >
